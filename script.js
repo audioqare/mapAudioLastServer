@@ -6,7 +6,7 @@ var openInfoWindow = null;
 
 async function fetchAllAccounts() {
   try {
-    const response = await fetch("https://asia-south1-mentorwise-384110.cloudfunctions.net/zoho-retriever");
+    const response = await fetch("https://asia-south1-mapaudio-419912.cloudfunctions.net/zohoAccountsRetrieverV2");
     // return response.json();
     
     const data = await response.json();
